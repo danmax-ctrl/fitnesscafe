@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/fitnesscafe/", // 👈 MUST match repo name
+  base: "/danmax-ctrl/fitnesscafe/", // 👈 MUST match repo name
   plugins: [react()],
   resolve: {
     alias: {
